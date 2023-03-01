@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文档管理</title>
+    <link rel="stylesheet" href="../static/css/article.css" th:href="@{/css/article.css}" />
+</head>
+
+<body>
+<h3>当前位置：文档管理</h3>
+<table class="table table-hover text-center">
+    <tbody><tr>
+        <th width="5%">ID</th>
+        <th width="15%">图片</th>
+        <th width="35%">名称</th>
+        <th width="10%">文章分类</th>
+        <th width="15%">更新时间</th>
+        <th width="20%">操作</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td width="10%"><img src="../static/img/t1.png" alt="" width="70" height="50"></td>
+        <td>第一篇文章</td>
+        <td>jquery</td>
+        <td>2022-09-21</td>
+        <td><div> <a href=""> 修改</a> <a href=""> 删除</a> </div></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td width="10%"><img src="../static/img/t2.png" alt="" width="70" height="50"></td>
+        <td>第二篇文章</td>
+        <td>vue</td>
+        <td>2022-09-27</td>
+        <td><div> <a href=""> 修改</a> <a href=""> 删除</a> </div></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td width="10%"><img src="../static/img/t3.png" alt="" width="70" height="50"></td>
+        <td>第三篇文章</td>
+        <td>java</td>
+        <td>2012-10-21</td>
+        <td><div> <a href=""> 修改</a> <a href=""> 删除</a> </div></td>
+    </tr>
+    </tbody></table>
+<!--分页-->
+<p>
+    <a href="">首页</a>
+    <a href="" class="active">1</a>
+    <a href="">2</a>
+    <a href="">3</a>
+    <a href="">4</a>
+    <a href="" class="more">...</a>
+    <a href="">尾页</a>
+</p>
+</body>
+</html>

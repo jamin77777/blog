@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../static/css/bootstrap.css" th:href="@{/css/bootstrap.css}">
+  <title>用户管理</title>
+</head>
+<body>
+<div class="container">
+  <!--面板的情景样式-->
+  <!--<div class="panel panel-primary">-->
+  <div class="panel panel-default" style="margin: 20px">
+    <div class="panel-heading">
+      <!--面板的标题-->
+      <h3 class="panel-title text-center">分类管理</h3>
+    </div>
+    <!--面板的主体-->
+    <!--<div class="panel-body">-->
+    <!--在面板中嵌入一个表格-->
+    <table class="table table-bordered table-hover text-center">
+      <thead>
+      <tr class="bg-success" >
+        <td>ID</td>
+        <td>文章</td>
+        <td>更新时间</td>
+        <td>类型</td>
+        <td>操作</td>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>1</td>
+        <td>第一篇博客</td>
+        <td>2022-08-05 20:52:00</td>
+        <td>jquery</td>
+        <td><a href="">编辑</a> | <a href="">删除</a></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>第二篇博客</td>
+        <td>2022-09-05 20:52:00</td>
+        <td>vue</td>
+        <td><a href="">编辑</a> | <a href="">删除</a></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>第三篇博客</td>
+        <td>2022-10-05 20:52:00</td>
+        <td>java</td>
+        <td><a href="">编辑</a> | <a href="">删除</a></td>
+      </tr>
+      </tbody>
+    </table>
+
+  </div>
+
+</div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+
+    <!--分页通常写到一对nav标签中,居中显示-->
+    <nav class="text-center">
+      <!--分页基类容器: .pagination-->
+      <ul class="pagination pagination-md">
+        <li class="disabled"><a href="">«上一页</a></li>
+        <li class="active"><a href="">1</a></li>
+        <li><a href="">2</a></li>
+        <li><a href="">3</a></li>
+        <li><a href="">4</a></li>
+        <li><a href="">5</a></li>
+        <li><a href="">下一页»</a></li>
+      </ul>
+
+    </nav>
+
+  </div>
+</div>
+
+</div>
+
+<script src="../static/js/jquery.js"></script>
+<script src=".../static/js/bootstrap.js"></script>
+</body>
+</html>
